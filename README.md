@@ -45,10 +45,6 @@ the clock signal.
 
 **PROGRAM**
 
-Program for flipflops and verify its truth table in quartus using Verilog programming.
-Developed by: REVATHI K
-RegisterNumber: 212223040169
-
 module Exp_07(q,qb,j,k,clock,reset);
 	input j,k,clock,reset;
 	output reg q,qb;

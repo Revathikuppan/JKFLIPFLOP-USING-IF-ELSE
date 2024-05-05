@@ -45,6 +45,7 @@ the clock signal.
 
 **PROGRAM**
 
+```
 module Exp_07(q,qb,j,k,clock,reset);
 	input j,k,clock,reset;
 	output reg q,qb;
@@ -75,6 +76,7 @@ always @(posedge (clock))
 			end
 	end
 endmodule
+```
 
 **RTL LOGIC FOR FLIPFLOPS**
 
